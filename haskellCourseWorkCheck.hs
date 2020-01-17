@@ -1,6 +1,10 @@
 -- This document is designed for UCL COMP0002 2019 course work
 -- It simulates, to some extend, of how the course work would be checcked using quickCheck module
 -- This file assumes the installation on quickCheck package
+-- In order to install the quickCheck package, run the following command:
+-- cabal update (this ensures the installer is up to date)
+-- cabal --lib install QuickCheck (This line installs the packages)
+
 
 import Data.Set
 import Test.QuickCheck
